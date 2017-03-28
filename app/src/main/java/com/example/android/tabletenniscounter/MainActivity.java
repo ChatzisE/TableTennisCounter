@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     public void onePointA(View view) {
 
         if (scorePlayerA==12){
-            Toast.makeText(this, "You cannot have more than 12 point in a TableTennis Set", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "You cannot have more than 12 points in a TableTennis Set", Toast.LENGTH_SHORT).show();
             return;
         }
         scorePlayerA =scorePlayerA+1;
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onePointB(View view) {
         if (scorePlayerB==12){
-            Toast.makeText(this, "You cannot have more than 12 point in a TableTennis Set", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "You cannot have more than 12 points in a TableTennis Set", Toast.LENGTH_SHORT).show();
             return;
         }
         scorePlayerB =scorePlayerB+1;
